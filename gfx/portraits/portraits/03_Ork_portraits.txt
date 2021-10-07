@@ -1,0 +1,162 @@
+portraits = {
+####ORKS############
+	ork1 = {     texturefile = "gfx/models/portraits/orks/ork1.dds"}
+	ork2 = {     texturefile = "gfx/models/portraits/orks/ork2.dds"}
+	ork3 = {     texturefile = "gfx/models/portraits/orks/ork3.dds"}
+	ork4 = {     texturefile = "gfx/models/portraits/orks/ork4.dds"}
+	ork5 = {     texturefile = "gfx/models/portraits/orks/ork5.dds"}
+	ork6 = {     texturefile = "gfx/models/portraits/orks/ork6.dds"}
+	ork_ruler1 = {     texturefile = "gfx/models/portraits/orks/ork_ruler1.dds"}
+	ork_ruler2 = {     texturefile = "gfx/models/portraits/orks/ork_ruler2.dds"}
+	ork_ruler3 = {     texturefile = "gfx/models/portraits/orks/ork_ruler3.dds"}
+	ork_ruler4 = {     texturefile = "gfx/models/portraits/orks/ork_ruler4.dds"}
+	ork_ruler5 = {     texturefile = "gfx/models/portraits/orks/ork_ruler5.dds"}
+	ork_ruler6 = {     texturefile = "gfx/models/portraits/orks/ork_ruler6.dds"}
+	ork_admiral1 = {     texturefile = "gfx/models/portraits/orks/ork_admiral1.dds"}
+	ork_scientist1 = {     texturefile = "gfx/models/portraits/orks/ork_scientist1.dds"}
+}
+
+portrait_groups = {
+	imp_ork = {
+		default = ork1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					ork1
+					ork2
+					ork3
+					ork4
+					ork5
+					ork6
+					ork_ruler1
+					ork_ruler2
+					ork_admiral1
+					ork_scientist1
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					ork1
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					ork1
+					ork2
+					ork3
+					ork4
+					ork6
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					ork1
+					ork2
+					ork3
+					ork4
+					ork5
+					ork6
+					ork_ruler1
+					ork_ruler2
+					ork_scientist1
+					ork_admiral1
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				portraits = {
+					ork1
+					ork2
+					ork3
+					ork4
+					ork5
+					ork6
+					ork_ruler1
+					ork_ruler2
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				portraits = {
+					ork_admiral1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				portraits = {
+					ork_scientist1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				portraits = {
+					ork1
+					ork2
+					ork3
+					ork4
+					ork6
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				portraits = {
+					ork2
+					ork3
+					ork4
+					ork6
+					ork_ruler1
+					ork_ruler2
+					ork_admiral1
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					ork_ruler1
+					ork_ruler2
+				}
+			}
+		}
+		
+		
+	}
+}

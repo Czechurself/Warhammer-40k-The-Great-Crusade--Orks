@@ -1,0 +1,225 @@
+# Ghazgkull Orks
+ghazgkull_orks = {
+	name = "Waaagh! Ghazgkull"
+	spawn_enabled=always
+	spawn_as_fallen = no
+	species_name = "Ork"
+	species_plural = "Orks"	
+	species_adjective = "Orkish"
+	adjective = "Orkish"
+	
+	name_list = "ORK1"
+	ship_prefix = "Da"
+	
+	species_class = "ORK"
+	trait="trait_quarrelsome"
+	trait="trait_unruly"
+	trait="trait_rapid_breeders"
+	trait="trait_strong"
+	trait="trait_nomadic"
+	portrait = "imp_ork"
+	species_bio="Orks are a warlike, crude, and highly aggressive green-skinned Xenos race. Orks are the dominant subspecies of the Orkoids, which includes the smaller Gretchin and Snotlings. Although their society is entirely primitive and brutal, the Orkoid races are believed to have been genetically engineered millennia ago. 
+
+The Orkoid ecosystem includes several species, Gretchin, Snotlings, Squigs and Orkoid Fungus, as well as the Orks themselves. The Ork ecosystem, born from fungal spores, travels with the race itself, allowing the Orks to rapidly colonize and reproduce on worlds across the galaxy. Orks are unusual in that they can continue to grow throughout their lives and that this growth is directly tied to their social standing - the largest Orks always being the most dominant."
+	name_list="ORK1"
+	
+	authority="auth_dictatorial"
+	government="gov_bandit_kingdom"
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_barbaric_despoilers"
+	}
+	
+	planet_name = "Golgoth"
+	planet_class = "pc_tropical"
+	system_name = Angelis
+
+	
+	#initializer=""
+	flags={ 
+		ghazgkull_empire	
+		ork_empire
+	}
+	
+	
+	graphical_culture = "ork_01"
+	city_graphical_culture = "ork_01"
+	
+	empire_flag = {
+		icon= {
+			category="map"
+			file="waagh2.dds"
+		}
+		background= {
+			category="backgrounds"
+			file="v.dds"
+		}
+		colors={
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	
+	ruler = {
+		name = "Ghazghkull Mag Uruk Thraka"
+		class = ruler
+		gender = male
+		portrait = "ork_ruler1"
+		experience = 1200.0
+	}
+}
+
+# Gorbad Orks
+gorbad_orks = {
+	name = "Waaagh! Gorbad"
+	spawn_enabled= always
+	spawn_as_fallen = no
+	species_name = "Ork"
+	species_plural = "Orks"	
+	species_adjective = "Orkish"
+	adjective = "Orkish"
+	
+	name_list = "ORK1"
+	ship_prefix = "Da"
+	
+	species_class = "ORK"
+	trait="trait_quarrelsome"
+	trait="trait_unruly"
+	trait="trait_rapid_breeders"
+	trait="trait_strong"
+	trait="trait_nomadic"
+	portrait = "imp_ork"
+	species_bio="Orks are a warlike, crude, and highly aggressive green-skinned Xenos race. Orks are the dominant subspecies of the Orkoids, which includes the smaller Gretchin and Snotlings. Although their society is entirely primitive and brutal, the Orkoid races are believed to have been genetically engineered millennia ago. 
+
+The Orkoid ecosystem includes several species, Gretchin, Snotlings, Squigs and Orkoid Fungus, as well as the Orks themselves. The Ork ecosystem, born from fungal spores, travels with the race itself, allowing the Orks to rapidly colonize and reproduce on worlds across the galaxy. Orks are unusual in that they can continue to grow throughout their lives and that this growth is directly tied to their social standing - the largest Orks always being the most dominant."
+	name_list="ORK1"
+	
+	authority="auth_dictatorial"
+	government="gov_bandit_kingdom"
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_barbaric_despoilers"
+	}
+	
+	planet_name = "Tyr"
+	planet_class = "pc_tropical"
+	system_name = Kolchis
+	
+	#initializer="gorbad_homeworld"
+	flags={ 
+		gorbad_empire	
+		ork_empire
+	}
+	spawn_enabled=always
+	
+	graphical_culture = "ork_01"
+	city_graphical_culture = "ork_01"
+	
+	empire_flag = {
+		icon= {
+			category="map"
+			file="waagh2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Gorbad Ironclaw"
+		class = ruler
+		gender = male
+		portrait = "ork_ruler6"
+		experience = 1200.0
+	}
+}
+
+# Gorro Orks
+gorro_orks = {
+	name = "Ork Empire of Gorro"
+	spawn_enabled= always
+	spawn_as_fallen = no
+	species_name = "Ork"
+	species_plural = "Orks"	
+	species_adjective = "Orkish"
+	adjective = "Orkish"
+	
+	name_list = "ORK1"
+	ship_prefix = "Da"
+	
+	species_class = "ORK"
+	trait="trait_quarrelsome"
+	trait="trait_unruly"
+	trait="trait_rapid_breeders"
+	trait="trait_strong"
+	trait="trait_nomadic"
+	portrait = "imp_ork"
+	species_bio="Orks are a warlike, crude, and highly aggressive green-skinned Xenos race. Orks are the dominant subspecies of the Orkoids, which includes the smaller Gretchin and Snotlings. Although their society is entirely primitive and brutal, the Orkoid races are believed to have been genetically engineered millennia ago. 
+
+The Orkoid ecosystem includes several species, Gretchin, Snotlings, Squigs and Orkoid Fungus, as well as the Orks themselves. The Ork ecosystem, born from fungal spores, travels with the race itself, allowing the Orks to rapidly colonize and reproduce on worlds across the galaxy. Orks are unusual in that they can continue to grow throughout their lives and that this growth is directly tied to their social standing - the largest Orks always being the most dominant."
+	name_list="ORK1"
+	
+	authority="auth_dictatorial"
+	government="gov_bandit_kingdom"
+	ethic="ethic_xenophobe"
+	ethic="ethic_fanatic_militarist"
+	civics={
+		"civic_warrior_culture"
+		"civic_barbaric_despoilers"
+	}
+	
+	planet_name = "Gorro"
+	planet_class = "pc_tropical"
+	system_name = "Gorro"
+	
+	#initializer=""
+	flags={ 
+		ork_empire
+	}
+	spawn_enabled=always
+	
+	graphical_culture = "ork_01"
+	city_graphical_culture = "ork_01"
+	
+	empire_flag = {
+		icon= {
+			category="map"
+			file="waagh2.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "triangle_split.dds"
+		}
+		colors={
+			"blue"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	ruler = {
+		name = "Mekboy"
+		class = ruler
+		gender = male
+		portrait = "ork_scientist1"
+		experience = 1200.0
+	}
+}
+
+
+
