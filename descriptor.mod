@@ -1,6 +1,7 @@
 version=".01"
 tags={
 	"Species"
+	"Empire"
 }
 name="WH40KOrks"
 picture="thumbnail.png"
