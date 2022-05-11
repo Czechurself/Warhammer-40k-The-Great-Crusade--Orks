@@ -1,0 +1,452 @@
+goff = {
+	name = "Goff Klahn"
+	adjective = "PRESCRIPTED_adjective_goff"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	ship_prefix = "PRESCRIPTED_ship_prefix_goff"
+	spawn_as_fallen = no
+
+	species = {
+		class = "ORK"
+		portrait = "ork_goff"
+		name = "PRESCRIPTED_species_name_goff"
+		plural = "PRESCRIPTED_species_plural_goff"
+		adjective = "PRESCRIPTED_species_adjective_goff"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+		species_bio="Orks are a warlike, crude, and highly aggressive green-skinned Xenos race. Orks are the dominant subspecies of the Orkoids, which includes the smaller Gretchin and Snotlings. Although their society is entirely primitive and brutal, the Orkoid races are believed to have been genetically engineered millennia ago. 
+			The Orkoid ecosystem includes several species, Gretchin, Snotlings, Squigs and Orkoid Fungus, as well as the Orks themselves. The Ork ecosystem, born from fungal spores, travels with the race itself, allowing the Orks to rapidly colonize and reproduce on worlds across the galaxy. Orks are unusual in that they can continue to grow throughout their lives and that this growth is directly tied to their social standing - the largest Orks always being the most dominant."
+		}
+
+	room = "ork_room"
+
+	authority = "auth_ork"
+	civics = { "civic_combat_specialists" "civic_great_waaagh" "civic_barbaric_despoilers" }
+	government = "gov_kratocratic_dictatorship"
+	origin = "origin_goff"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { ork_empire the_goff }
+	planet_name = "PRESCRIPTED_planet_name_goff"
+	planet_class = "pc_orkworld"
+	system_name = "PRESCRIPTED_system_name_goff"
+
+	graphical_culture = "ork_01"
+	city_graphical_culture = "preindustrial_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_Goffs.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"orange"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_goff"
+		gender = male
+		portrait = "ORK_Goff_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_goff"
+		experience = 1200.0
+		gender = male
+	}
+}
+
+evil_sunz = {
+	name = "Evil Sunz"
+	adjective = "PRESCRIPTED_adjective_evil_sunz"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	ship_prefix = "PRESCRIPTED_ship_prefix_evil_sunz"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_evil_sunz"
+		name = "PRESCRIPTED_species_name_evil_sunz"
+		plural = "PRESCRIPTED_species_plural_evil_sunz"
+		adjective = "PRESCRIPTED_species_adjective_evil_sunz"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "ork_room"
+
+	authority = "auth_ork"
+	civics = { "civic_vehicles_lovers" "civic_great_waaagh" "civic_barbaric_despoilers" }
+	government = "gov_kratocratic_dictatorship"
+	origin = "origin_evil_sunz"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { ork_empire the_evil_sunz }
+	planet_name = "PRESCRIPTED_planet_name_evil_sunz"
+	planet_class = "pc_orkworld"
+	system_name = "PRESCRIPTED_system_name_evil_sunz"
+
+	graphical_culture = "fungoid_01"
+	city_graphical_culture = "preindustrial_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_EvilSunz.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"red"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_evil_sunz"
+		gender = male
+		portrait = "ORK_EvilSunz_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_evil_sunz"
+	}
+}
+
+death_skullz = {
+	name = "Death Skullz"
+	adjective = "PRESCRIPTED_adjective_death_skullz"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	ship_prefix = "PRESCRIPTED_ship_prefix_death_skullz"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_death_skullz"
+		name = "PRESCRIPTED_species_name_death_skullz"
+		plural = "PRESCRIPTED_species_plural_death_skullz"
+		adjective = "PRESCRIPTED_species_adjective_death_skullz"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "ork_room"
+
+	authority = "auth_ork"
+	civics = { "civic_scavengers_mobz" "civic_great_waaagh" "civic_barbaric_despoilers" }
+	government = "gov_kratocratic_dictatorship"
+	origin = "origin_death_skullz"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { ork_empire the_death_skullz }
+	planet_name = "PRESCRIPTED_planet_name_death_skullz"
+	planet_class = "pc_orkworld"
+	system_name = "PRESCRIPTED_system_name_death_skullz"
+
+	graphical_culture = "fungoid_01"
+	city_graphical_culture = "preindustrial_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_DeathSkullz.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_death_skullz"
+		gender = male
+		portrait = "ORK_DeathSkullz_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_death_skullz"
+	}
+}
+
+blood_axe = {
+	name = "Blood Axe"
+	adjective = "PRESCRIPTED_adjective_blood_axe"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	ship_prefix = "PRESCRIPTED_ship_prefix_blood_axe"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_blood_axe"
+		name = "PRESCRIPTED_species_name_blood_axe"
+		plural = "PRESCRIPTED_species_plural_blood_axe"
+		adjective = "PRESCRIPTED_species_adjective_blood_axe"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "ork_room"
+
+	authority = "auth_ork"
+	civics = { "civic_camouflage_boyz" "civic_great_waaagh" "civic_barbaric_despoilers" }
+	government = "gov_kratocratic_dictatorship"
+	origin = "origin_blood_axe"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { ork_empire the_blood_axe }
+	planet_name = "PRESCRIPTED_planet_name_blood_axe"
+	planet_class = "pc_orkworld"
+	system_name = "PRESCRIPTED_system_name_blood_axe"
+
+	graphical_culture = "fungoid_01"
+	city_graphical_culture = "preindustrial_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_BloodAxe.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"burgundy"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_blood_axe"
+		gender = male
+		portrait = "ORK_BloodAxe_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_blood_axe"
+	}
+}
+
+big_mek = {
+	name = "Big Mek"
+	adjective = "PRESCRIPTED_adjective_big_mek"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	ship_prefix = "PRESCRIPTED_ship_prefix_big_mek"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_big_mek"
+		name = "PRESCRIPTED_species_name_big_mek"
+		plural = "PRESCRIPTED_species_plural_big_mek"
+		adjective = "PRESCRIPTED_species_adjective_big_mek"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "ork_room"
+
+	authority = "auth_ork"
+	civics = { "civic_oddboyz_culture" "civic_great_waaagh" "civic_barbaric_despoilers" }
+	government = "gov_kratocratic_dictatorship"
+	origin = "origin_big_mek"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { ork_empire the_big_mek }
+	planet_name = "PRESCRIPTED_planet_name_big_mek"
+	planet_class = "pc_orkworld"
+	system_name = "PRESCRIPTED_system_name_big_mek"
+
+	graphical_culture = "fungoid_01"
+	city_graphical_culture = "preindustrial_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_Pirates.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_big_mek"
+		gender = male
+		portrait = "ORK_BigMek_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_big_mek"
+	}
+}
+
+big_boss = {
+	name = "Big Boss"
+	adjective = "PRESCRIPTED_adjective_big_boss"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	ship_prefix = "PRESCRIPTED_ship_prefix_big_boss"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_big_boss"
+		name = "PRESCRIPTED_species_name_big_boss"
+		plural = "PRESCRIPTED_species_plural_big_boss"
+		adjective = "PRESCRIPTED_species_adjective_big_boss"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "ork_room"
+
+	authority = "auth_ork"
+	civics = { "civic_clever_nobz" "civic_great_waaagh" "civic_barbaric_despoilers" }
+	government = "gov_kratocratic_dictatorship"
+	origin = "origin_big_boss"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { ork_empire the_big_boss }
+	planet_name = "PRESCRIPTED_planet_name_big_boss"
+	planet_class = "pc_orkworld"
+	system_name = "PRESCRIPTED_system_name_big_boss"
+
+	graphical_culture = "fungoid_01"
+	city_graphical_culture = "preindustrial_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_GUI_Logo_Faction_ORK.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_green"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_big_boss"
+		gender = male
+		portrait = "ORK_BigBoss_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_big_boss"
+	}
+}
+
+bad_moons = {
+	name = "Bad Moons"
+	adjective = "PRESCRIPTED_adjective_bad_moons"
+	spawn_enabled = always # yes / no / always
+	ignore_portrait_duplication = yes
+	ship_prefix = "PRESCRIPTED_ship_prefix_bad_moons"
+
+	species = {
+		class = "ORK"
+		portrait = "ork_bad_moons"
+		name = "PRESCRIPTED_species_name_bad_moons"
+		plural = "PRESCRIPTED_species_plural_bad_moons"
+		adjective = "PRESCRIPTED_species_adjective_bad_moons"
+		name_list = "ORK1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_repugnant"
+		trait = "trait_adaptive"
+	}
+
+	room = "ork_room"
+
+	authority = "auth_ork"
+	civics = { "civic_teeth_growers" "civic_great_waaagh" "civic_barbaric_despoilers" }
+	government = "gov_kratocratic_dictatorship"
+	origin = "origin_bad_moons"
+
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_fanatic_militarist"
+	flags = { ork_empire the_bad_moons }
+	planet_name = "PRESCRIPTED_planet_name_bad_moons"
+	planet_class = "pc_orkworld"
+	system_name = "PRESCRIPTED_system_name_bad_moons"
+
+	graphical_culture = "fungoid_01"
+	city_graphical_culture = "preindustrial_01"
+
+	empire_flag = {
+		icon = {
+			category = "armada"
+			file = "TX_UI_Logo_SubFaction_ORK_BadMoonz.dds"
+		}
+		background = {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors = {
+			"dark_teal"
+			"black"
+			"null"
+			"null"
+		}
+	}
+
+	ruler = {
+		name = "PRESCRIPTED_ruler_name_bad_moons"
+		gender = male
+		portrait = "ORK_BadMoons_ruler"
+		texture = 0
+		clothes = 0
+		leader_class = ruler
+		ruler_title = "PRESCRIPTED_ruler_title_bad_moons"
+	}
+}
